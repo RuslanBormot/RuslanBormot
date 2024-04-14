@@ -1,0 +1,16 @@
+const isEven = num => num % 2 === 0;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const getRandomElement = array => array[getRandomIndex(array)];
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+12,7,11,13,64,2,2,53,92,56,4,4,51,46,16,10,50,57,29,71,90,2,3,74,92,50,61,80,70,94,25,74,98,47,62,86,42,47,60,92,48 * 59
+const multiply = (a, b) => a * b;
+
+banana
+
+const greet = name => `Hello, ${name}!`;
+57 * 86,91,58,90,85,46,44,28,3,8,63,95,69,34,9,96,59,2,3,10,70,19,45,11,40,96,27,61,92,13,55,21,25,88,71,6,35,89,62,79,85,8,42,54,6,81,92,44,8,40,88,7,86,63,20,32,82,73,7,23,78,35,8,8,81,73,91,37,95,42,81,70,43,44,60,36,9,92,0,58,3,96,28,76,11,87,41,14,11,83,61,30,47,31,49,11,94,72,25
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
